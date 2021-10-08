@@ -1,11 +1,35 @@
 body {
-  background-color: #353d40;
-  color: white;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #353d40;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #content {
-  width: 400;
-  margin: auto;
-  text-align: center;
+    width: 400;
+    margin: auto;
+    text-align: center;
+}
+
+#instrument {
+    font-size: 5rem;
+    background-color: #fff;
+    font-family: system-ui;
+    letter-spacing: 0.1rem;
+    color: #353d40;
+    margin-top: 0;
+    padding: 1rem;
+}
+
+#note {
+    font-size: 220px;
+}
+
+#octave {
+    position: absolute;
+    top: 10px;
+    font-size: 80px;
+    margin-left: 20px;
+}
+.note-wrapper {
+    position: relative;
 }

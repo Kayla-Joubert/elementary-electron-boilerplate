@@ -11,10 +11,11 @@
   </head>
   <body>
     <div id="content">
-      <h1>elementary-electron</h1>
-      <p>Click on the following button or press "A" on your keyboard to emit a tone</p>
-      <button id="makeNoiseButton">Noise me !</button>
-      <p id="tone">No Tone Playing</p>
+      <h1 id="instrument"></h1>
+      <div class="note-wrapper">
+        <span id="note"></span>
+        <span id="octave"></span>
+      </div>
     </div>
     </p>
     <script src="./renderer.js"></script>
